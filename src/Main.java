@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader("test.txt"));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("NewTex.txt"));
-        String vowels = "а е ё и й о у ы э ю я";
-        String consonant = "б в г д ж з к л м н п р с т ф х ц ч ш щ ъ ь";
+        String vowels = "а е ё и й о у ы э ю я А Е Ё И Й О У Ы Э Ю Я";
+        String consonant = "б в г д ж з к л м н п р с т ф х ц ч ш щ ъ ь Б В Г Д Ж З К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь";
 
         int countVowels = 0;
 
