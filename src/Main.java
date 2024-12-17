@@ -22,7 +22,7 @@ public class Main {
                 if (vowels.contains(String.valueOf(chArray[i]))) {
                     bufferedWriter.write("a");
                     countVowels++;
-                } else if (consonant.equals(String.valueOf(chArray[i]))) {
+                } else if (consonant.contains(String.valueOf(chArray[i]))) {
                     bufferedWriter.write("m");
                     countConsonant++;
                 }
